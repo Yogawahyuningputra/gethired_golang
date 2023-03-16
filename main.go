@@ -24,7 +24,7 @@ func main() {
 	var AllowedMethods = handlers.AllowedMethods([]string{"GET", "POST", "PUT", "HEAD", "OPTIONS", "PATCH", "DELETE"})
 	var AllowedOrigins = handlers.AllowedOrigins([]string{"*"})
 
-	var port = "3031"
+	var port = "3030"
 	fmt.Println("Server running on port " + port)
 	
 	// Embed the setup allowed in 2 parameter on this below code ...
